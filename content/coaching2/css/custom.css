@@ -2,9 +2,14 @@
     .cards{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
     }
-    .one-third.column{
-        width: 100%;
+    .card-items{
+        width: 400px;
+    }
+    .news{
+        margin-top: 80px;
     }
    
 }
