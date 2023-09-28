@@ -5662,6 +5662,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .hover_box .hover_box_wrapper img {
 	display: block
 }
+
 .hover_box .hover_box_wrapper .visible_photo {
 	opacity: 1;
 	filter: alpha(opacity=100)

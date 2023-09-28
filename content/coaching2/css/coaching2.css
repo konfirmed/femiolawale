@@ -1438,12 +1438,8 @@ a#back_to_top.button.button_js, #popup_contact>a.button {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.button-stroke #back_to_top, .button-stroke #popup_contact>.button {
-	border-color: ;
-}
-.button-stroke #back_to_top:hover, .button-stroke #popup_contact>.button:hover {
-	background-color: !important;
-}
+
+
 a#back_to_top.button.button_js:after, #popup_contact>a.button:after {
 	display: none;
 }
@@ -2297,17 +2293,17 @@ h6 {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and min-width: 768px and max-width: 959px {
+@media only screen and ( min-width: 768px) and (max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and max-width: 479px {
+@media only screen and (max-width: 479px) {
 	.the-icons.span3 {
 		width: 100%;
 	}
