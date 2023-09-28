@@ -5551,6 +5551,8 @@ html, body {
 		min-width: 0;
 	}
 	.section_wrapper, .container, .with_aside .content_wrapper {
+		
+		
 		max-width: 708px;
 	}
 	/* -------------------- */
