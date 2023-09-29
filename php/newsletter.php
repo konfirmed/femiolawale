@@ -5,7 +5,7 @@ error_reporting(0);
 
 
  
-$email_it_to_news = "your_own_email_address@some_domain.com";
+$email_it_to_news = "info@femiolawale.com";
 $error_message_news = "Please complete the form first";
 
 $rnd_news=$_POST['rnd_news'];
