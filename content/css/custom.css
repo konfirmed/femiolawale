@@ -1,0 +1,42 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px; /* Add negative margin to accommodate spacing between cards */
+}
+
+.card {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0 10px; /* Add margin to create spacing between cards */
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card h3 {
+    color: #0077b5;
+}
+
+.card p {
+    margin: 15px 0;
+}
+
+.card a.button {
+    display: inline-block;
+    background-color: #0077b5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card a.button:hover {
+    background-color: #005180;
+}
