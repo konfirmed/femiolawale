@@ -7623,12 +7623,12 @@ html, body {
 	}
 }
 
-    .form-wrapper {
-        width: 100%; /* Adjust the width to your preference */
+    /* .form-wrapper {
+        width: 100%; 
         margin-left: auto;
         margin-right: 0;
     }
-
+ */
 
 	.center-content-container {
 		display: flex;
@@ -7636,70 +7636,3 @@ html, body {
 		align-items: center;
 		height: 100vh; /* Center vertically in the viewport */
 	}
-
-
- /* Center the card section in the body */
-#CardContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Adjust alignment as needed */
-    padding: 20px;
-}
-
-/* Updated CSS for card layout */
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%; /* Adjust the maximum width */
-	height: fit-content;
-    margin: 0 auto;
-    background-color: #f4f4f4;
-}
-
-.card {
-    flex: 0 0 calc(100% - 50px); /* Adjust card size and spacing as needed */
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    margin: 0 5px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
-
-  
-  .card .blogImg {
-	width: 100%;
-	height: 100px; /* Adjust image height */
-	background-size: cover;
-	background-position: center;
-  }
-  
-  .card h3 {
-	font-size: 16px; /* Adjust card title size */
-	margin: 0;
-  }
-  
-  .card .postDescription {
-	font-size: 12px; /* Adjust description size */
-	margin-top: 10px;
-  }
-  
-  .card .postDescription p {
-	font-size: 12px; /* Adjust text size below the image */
-	margin: 0;
-	padding: 0;
-  }
-  
-  .card .postDescription span {
-	font-size: 12px; /* Adjust author and date size */
-	color: #777;
-  }
-  
-  /* Add hover effect for the card (optional) */
-  .card:hover {
-	transform: scale(1.05);
-	transition: transform 0.2s;
-  }
-  
-
- 

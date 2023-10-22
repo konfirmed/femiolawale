@@ -1,19 +1,3 @@
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -10px; /* Add negative margin to accommodate spacing between cards */
-}
-
-.card {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    margin: 0 10px; /* Add margin to create spacing between cards */
-}
-
 .card h2 {
     font-size: 24px;
     margin: 0;
@@ -40,3 +24,222 @@
 .card a.button:hover {
     background-color: #005180;
 }
+
+ /* Center the card section in the body */
+ #CardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust alignment as needed */
+    padding: 20px;
+}
+  
+  /* Add hover effect for the card (optional) */
+  .card:hover {
+	transform: scale(1.05);
+	transition: transform 0.2s;
+  }
+
+  .section_title {
+    padding: 20px 0; 
+    background: #f7f7f7; 
+    border-bottom: 1px solid #ddd; 
+}
+.title {
+    font-size: 28px; 
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.text-center {
+    text-align: center;
+}
+  
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0; 
+}
+
+.card .blogImg {
+    width: 100%;
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+}
+.card h3 {
+    font-size: 24px; 
+    margin: 20px 0; 
+}
+.card .postDescription {
+    font-size: 14px; 
+    margin: 0 0 20px;
+}
+.card .postDescription span {
+    font-size: 14px; 
+    color: #777;
+    margin: 0 0 10px;
+}
+.card .postDescription p {
+    font-size: 14px;
+    color: #555;
+    text-align: justify; 
+}
+
+
+
+
+/* sermon page */
+.sermon-navBar{
+    background-color: white;
+    padding: 1px;
+  }
+
+  .sermon-image{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .sermon{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    color: white;
+  }
+  
+  .foot-sermon{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: ; */
+    margin: 100px 50px 40px;
+    border-radius: 5px;
+    padding: 40px 20px;
+  }
+  .foot-sermon h3{
+    font-weight: bolder;
+    color: white;
+    max-width: 300px;
+  }
+
+  .inner-foot-sermon p {
+    color: white;
+  }
+
+  .inner-foot-sermon button{
+    background-color: #073831;
+    border: 1px solid #fff;
+  }
+  
+  .inner-foot-sermon button:hover{
+    background-color:#414345;
+  }
+
+  .foot{
+    background-color: #073831;
+    color: white;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .foot-sermon{      
+        display: flex;
+        flex-direction: column ;
+        margin: 10px;  
+      }
+  }
+
+  .center-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.hehe {
+    background-color:#eff6fa;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px 40px;
+    /* border-radius: 5px; */
+    padding: 40px 20px;
+}
+.hehee{
+    background-color: #eff6fa !important;
+}
+.trials{
+    background-color: #eff6fa !important;
+}
+
+.blog-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d6e67;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4d6e67;
+}
+.parallax {
+    background-image: url('/content/images/femiolawale.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    position: relative; 
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.blog-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.blog-navigation a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4d6e67;
+    color: white;
+    border-radius: 5px;
+}
+
