@@ -2,8 +2,8 @@
 |--------------------------------------------------------------------------
 | Be
 | Structure styles
-| http://BeantownThemes.com
-| http://themeforest.net/user/BeantownThemes
+| https://BeantownThemes.com
+| https://themeforest.net/user/BeantownThemes
 |--------------------------------------------------------------------------
 | 1.0 Grid
 | 2.0 Layout
@@ -7634,5 +7634,5 @@ html, body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 100vh; /* Center vertically in the viewport */
+		/* height: 100vh; Center vertically in the viewport */
 	}
