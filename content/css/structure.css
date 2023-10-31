@@ -7622,3 +7622,17 @@ html, body {
 		background-attachment: scroll!important
 	}
 }
+
+    /* .form-wrapper {
+        width: 100%; 
+        margin-left: auto;
+        margin-right: 0;
+    }
+ */
+
+	.center-content-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh; /* Center vertically in the viewport */
+	}
